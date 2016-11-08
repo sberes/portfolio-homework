@@ -18,14 +18,14 @@ p {
 #wrapforcolumn {
 	margin 0 auto;
 	width: 12.0in;
-	border-left: 1px solid #7A102E
-	border-right: 1px solid #7A102E
+	border-left: 1px solid #7A102E;
+	border-right: 1px solid #7A102E;
 }
 
 #header {
 	margin: 0 auto;
 	color:#7A102E;
-	background:#0F0F0E
+	background:#0F0F0E;
 
 }
 /* I put this #bg here trying to make it fall behind my navigation bar - the header-, 
@@ -34,7 +34,8 @@ is that what I achieved instead? I also like the border I created, but don't qui
 understand what I did*/
 #bg {
 	height: 25px;
-	background:#7A102E; repeat-x;
+	background:#7A102E; 
+	repeat-x;
 }
 
 #main-content {
@@ -49,13 +50,13 @@ understand what I did*/
 	width: 3.75in;
 	padding: 0 30px 30px;
 	float:left;
-	background-color: #000000
+	background-color: #000000;
 }
 
 #right-column {
 	width: 7.5in;
 	float: right;
-	background-color: #000000
+	background-color: #000000;
 }
 /*I want the side bar to fall under my About Me which I want under my picture - tyring 
 create two columns*/
@@ -88,23 +89,23 @@ h1 {
 }
 
 h2{
-	color: #7a2e40
-	margin:20 px 0 10px
-	padding-bottom:10 px
+	color: #7a2e40;
+	margin:20 px 0 10px;
+	padding-bottom: 10px;
 	font: normal 17px Georgia, serif;
 	border-bottom:1px solid #efece7;
 }
 
 h3 {
-	color:#7a2e40
+	color:#7a2e40;
 	margin:10px 0;
 	padding-bottom: 10px;
 	font: bold 14 px Arial, Helvetica; sans-serif;
-	border-bottom: 1px solid #efece7
+	border-bottom: 1px solid #efece7;
 }
 
 ul {
-	padding: 0
+	padding: 0;
 	margin: 0 0 0 17px;
 	list-style: square;
 }
@@ -120,12 +121,12 @@ tet to wrap around my cat*/
 	background:#F5D0C4;
 	width:100;
 	border: 1px solid #010103;
-	margin-top: 10px
+	margin-top: 10px;
 	padding: 0;
 }
 
 #nav {
-	background: #06a
+	background: #06a;
 	padding: 10px 20px;
 	text-align: right
 	color:#FFFFFF
