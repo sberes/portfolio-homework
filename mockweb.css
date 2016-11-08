@@ -1,0 +1,153 @@
+
+/* main layout*/
+body {
+	font:normal 16px Arial, Helvetica, sans-serif;
+	background-color: #000000
+	margin: 0
+	padding: 0
+}
+	
+/* better stated, I don't understand how to make it all fit in my window or set to mobile
+sizing or format for all browsers. Since I am floatind do I add a footer? What is clear 
+footer and do I need to do that?*/
+p {
+	margin:0
+	padding:0;
+}
+
+#wrapforcolumn {
+	margin 0 auto;
+	width: 12.0in;
+	border-left: 1px solid #7A102E
+	border-right: 1px solid #7A102E
+}
+
+#header {
+	margin: 0 auto;
+	color:#7A102E;
+	background:#0F0F0E
+
+}
+/* I put this #bg here trying to make it fall behind my navigation bar - the header-, 
+but it isn't working. Not sure what I am doing wrong. but I do have lines in my boxes
+is that what I achieved instead? I also like the border I created, but don't quite 
+understand what I did*/
+#bg {
+	height: 25px;
+	background:#7A102E; repeat-x;
+}
+
+#main-content {
+	margin: 0 auto;
+}
+
+#main_image {
+	text-align:center;
+}
+
+#left-column {
+	width: 3.75in;
+	padding: 0 30px 30px;
+	float:left;
+	background-color: #000000
+}
+
+#right-column {
+	width: 7.5in;
+	float: right;
+	background-color: #000000
+}
+/*I want the side bar to fall under my About Me which I want under my picture - tyring 
+create two columns*/
+.sidebar {
+	width:6.5in;
+	margin: 0 auto;
+	padding:10px 10px;
+	background: #000000;
+}
+
+/* Styling for the links*/
+a:visited, a:link {
+	color:#a43b55
+	text-decoration:underline;
+	background: none;
+}
+
+a:hover {
+	color:#a43b55
+	text-decoration:none;
+	background:none;
+}
+/* headings*/
+h1 {
+	color:#7a2e40
+	margin:0 0 10px
+	padding-bottom:10px
+	font: normal 17px Georgia, serif;
+	border-bottom: 1px solid #efece7;
+}
+
+h2{
+	color: #7a2e40
+	margin:20 px 0 10px
+	padding-bottom:10 px
+	font: normal 17px Georgia, serif;
+	border-bottom:1px solid #efece7;
+}
+
+h3 {
+	color:#7a2e40
+	margin:10px 0;
+	padding-bottom: 10px;
+	font: bold 14 px Arial, Helvetica; sans-serif;
+	border-bottom: 1px solid #efece7
+}
+
+ul {
+	padding: 0
+	margin: 0 0 0 17px;
+	list-style: square;
+}
+
+.box1 {    
+	background:#F5D0C4;
+	width:100;
+	border: 1px solid #010103;
+	padding: 0;
+}
+.box2 {     /* I can't figure out why my boxes are on top of each other, I also want my
+tet to wrap around my cat*/
+	background:#F5D0C4;
+	width:100;
+	border: 1px solid #010103;
+	margin-top: 10px
+	padding: 0;
+}
+
+#nav {
+	background: #06a
+	padding: 10px 20px;
+	text-align: right
+	color:#FFFFFF
+	background-color:#030509;
+}
+/*my hover change of colors aren't working*/
+#nav a {
+	margin: 0 10px;
+}
+
+#nav a:visited, #nav a:link {
+	text-decoration: yellow;
+	color:#FFFFFF;
+}
+
+#nav a:hover {
+	text-decoration:underline;
+	color:#F5F8FB;
+}
+
+#welcome {
+	margin-bottom:20px;
+	font:normal 28px Georgia, serif;
+	color:#FFFFFF; 
+}
